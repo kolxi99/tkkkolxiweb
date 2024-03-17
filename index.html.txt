@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Kolxi Web Site</title>
+<style>
+  @keyframes slideIn {
+    from {
+      transform: translateY(-100%);
+    }
+    to {
+      transform: translateY(0);
+    }
+  }
+  
+  body {
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    color: #fff;
+    background-image: url('https://images.unsplash.com/photo-1523381218251-50d1a15f4fe7');
+    background-size: cover;
+    background-position: center;
+  }
+  .overlay {
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 20px;
+  }
+  .container {
+    max-width: 800px;
+    margin: 50px auto;
+    background-color: rgba(0, 0, 0, 0.7);
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(255, 255, 255, 0.1);
+    animation: slideIn 1s ease-out;
+  }
+  h1 {
+    font-size: 48px;
+    margin-bottom: 30px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    background: linear-gradient(to right, #00d2ff, #3a7bd5, #00d2ff);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+  .social {
+    font-size: 24px;
+    margin-top: 50px;
+  }
+  .social a {
+    color: #ff4081; /* لون الوردي */
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s ease;
+  }
+  .social a:hover {
+    color: #b71c1c; /* الأحمر الغامق */
+  }
+  .whatsapp-link {
+    display: inline-block;
+    margin-top: 20px;
+  }
+  .whatsapp-link a {
+    color: #00e676;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  .separator {
+    border: none;
+    height: 1px;
+    background-color: #fff;
+    margin: 20px auto;
+    width: 50%;
+  }
+  .separator2 {
+    border: none;
+    height: 1px;
+    background-color: #b71c1c; /* لون الأحمر */
+    margin: 20px auto;
+    width: 50%;
+  }
+  .gaming {
+    font-size: 24px;
+    margin-top: 50px;
+    color: #00e676; /* لون الأخضر */
+    font-style: italic;
+    font-weight: bold;
+  }
+  .game-icon {
+    font-size: 36px;
+    vertical-align: middle;
+    margin-right: 10px;
+  }
+</style>
+</head>
+<body>
+<div class="overlay">
+  <div class="container">
+    <h1>Welcome to Kolxi Web Site</h1>
+    <hr class="separator">
+    <div class="social">
+      <p>Social Media: <a href="https://www.tiktok.com/@kolxi..?_t=8kjnR9lJ3m&_r=1" target="_blank" style="color: #ff4081;">TikTok</a> | <a href="https://youtube.com/@kolxi..?si=tAe_v0bXGGlUtmh4" target="_blank" style="color: #b71c1c;">YouTube</a></p>
+      <hr class="separator2">
+    </div>
+    <div class="gaming">
+      <span class="game-icon">🎮</span> Discover and join our gaming community: <span style="color: #ff4081;">Get ready to level up!</span>
+    </div>
+    <div class="whatsapp-link" style="color: #b71c1c;">Group whatsapp for gaming: <a href="https://chat.whatsapp.com/BqAiknSP8nZ2phyvYdY3sg" target="_blank">Join Now</a> <span style="font-size: 24px;">⚔</span></div>
+    <div class="whatsapp-link" style="color: #b71c1c;">Group whatsapp report Enemies of Morocco: <a href="https://chat.whatsapp.com/CGkYJh0vJkA5xnoSqwBf3u" target="_blank">Join Now</a> <span style="font-size: 24px;">⚔</span></div>
+  </div>
+</div>
+</body>
+</html>
